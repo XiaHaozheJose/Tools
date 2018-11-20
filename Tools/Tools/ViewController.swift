@@ -9,10 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+   
+    
+    let refresh = JSRefreshControl()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let tab = UITableView(frame: view.bounds)
+        tab.addSubview(refresh)
+        view.addSubview(tab)
+        tab.contentInsetAdjustmentBehavior = .always
+        refresh.addTarget(self, action: #selector(refreshDidChangedValue), for: .valueChanged)
+        
+        getDirectoryCache(cacheDir()) { (size) in
+            print(size)
+        }
+    }
+    
+    @objc func refreshDidChangedValue(){
+        // get datas
     }
 
 

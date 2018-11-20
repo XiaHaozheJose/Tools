@@ -12,6 +12,18 @@
 		82536F4321A42AD500291E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82536F4121A42AD500291E04 /* Main.storyboard */; };
 		82536F4521A42AD800291E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82536F4421A42AD800291E04 /* Assets.xcassets */; };
 		82536F4821A42AD800291E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82536F4621A42AD800291E04 /* LaunchScreen.storyboard */; };
+		82536F5121A42C1300291E04 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82536F5021A42C1300291E04 /* String-Extension.swift */; };
+		82536F5D21A42F1600291E04 /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 82536F5821A42F1600291E04 /* EncryptionTools.m */; };
+		82536F5E21A42F1600291E04 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 82536F5921A42F1600291E04 /* NSString+Hash.m */; };
+		82536F5F21A42F1600291E04 /* RSACryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 82536F5C21A42F1600291E04 /* RSACryptor.m */; };
+		82536F6121A443E400291E04 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82536F6021A443E400291E04 /* UIColor-Extension.swift */; };
+		82536F6321A445F200291E04 /* NSObject-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82536F6221A445F200291E04 /* NSObject-Extension.swift */; };
+		82536F6521A448F000291E04 /* UIImage-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82536F6421A448F000291E04 /* UIImage-Extension.swift */; };
+		82536F6721A4520F00291E04 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82536F6621A4520F00291E04 /* UIView-Extension.swift */; };
+		82536F7321A4700C00291E04 /* JSRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82536F7021A4700B00291E04 /* JSRefreshView.swift */; };
+		82536F7421A4700C00291E04 /* JSRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82536F7121A4700B00291E04 /* JSRefreshControl.swift */; };
+		82536F7521A4700C00291E04 /* JSRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82536F7221A4700B00291E04 /* JSRefreshView.xib */; };
+		82536F7721A4742400291E04 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 82536F7621A4742400291E04 /* down.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,22 @@
 		82536F4421A42AD800291E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82536F4721A42AD800291E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82536F4921A42AD800291E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82536F5021A42C1300291E04 /* String-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		82536F5221A42CAD00291E04 /* Tools-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tools-Bridging-Header.h"; sourceTree = "<group>"; };
+		82536F5721A42F1600291E04 /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		82536F5821A42F1600291E04 /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+		82536F5921A42F1600291E04 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		82536F5A21A42F1600291E04 /* RSACryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACryptor.h; sourceTree = "<group>"; };
+		82536F5B21A42F1600291E04 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		82536F5C21A42F1600291E04 /* RSACryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACryptor.m; sourceTree = "<group>"; };
+		82536F6021A443E400291E04 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		82536F6221A445F200291E04 /* NSObject-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject-Extension.swift"; sourceTree = "<group>"; };
+		82536F6421A448F000291E04 /* UIImage-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage-Extension.swift"; sourceTree = "<group>"; };
+		82536F6621A4520F00291E04 /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		82536F7021A4700B00291E04 /* JSRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSRefreshView.swift; sourceTree = "<group>"; };
+		82536F7121A4700B00291E04 /* JSRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSRefreshControl.swift; sourceTree = "<group>"; };
+		82536F7221A4700B00291E04 /* JSRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSRefreshView.xib; sourceTree = "<group>"; };
+		82536F7621A4742400291E04 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 		82536F3C21A42AD500291E04 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				82536F4F21A42BEF00291E04 /* Extension */,
 				82536F3D21A42AD500291E04 /* AppDelegate.swift */,
 				82536F3F21A42AD500291E04 /* ViewController.swift */,
 				82536F4121A42AD500291E04 /* Main.storyboard */,
@@ -62,6 +91,45 @@
 				82536F4921A42AD800291E04 /* Info.plist */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		82536F4F21A42BEF00291E04 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				82536F6F21A4700B00291E04 /* JSRefresh */,
+				82536F5621A42F0100291E04 /* EnCryptionTools_OC */,
+				82536F5021A42C1300291E04 /* String-Extension.swift */,
+				82536F5221A42CAD00291E04 /* Tools-Bridging-Header.h */,
+				82536F6021A443E400291E04 /* UIColor-Extension.swift */,
+				82536F6221A445F200291E04 /* NSObject-Extension.swift */,
+				82536F6421A448F000291E04 /* UIImage-Extension.swift */,
+				82536F6621A4520F00291E04 /* UIView-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		82536F5621A42F0100291E04 /* EnCryptionTools_OC */ = {
+			isa = PBXGroup;
+			children = (
+				82536F5721A42F1600291E04 /* EncryptionTools.h */,
+				82536F5821A42F1600291E04 /* EncryptionTools.m */,
+				82536F5B21A42F1600291E04 /* NSString+Hash.h */,
+				82536F5921A42F1600291E04 /* NSString+Hash.m */,
+				82536F5A21A42F1600291E04 /* RSACryptor.h */,
+				82536F5C21A42F1600291E04 /* RSACryptor.m */,
+			);
+			path = EnCryptionTools_OC;
+			sourceTree = "<group>";
+		};
+		82536F6F21A4700B00291E04 /* JSRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				82536F7621A4742400291E04 /* down.png */,
+				82536F7021A4700B00291E04 /* JSRefreshView.swift */,
+				82536F7121A4700B00291E04 /* JSRefreshControl.swift */,
+				82536F7221A4700B00291E04 /* JSRefreshView.xib */,
+			);
+			path = JSRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +164,7 @@
 				TargetAttributes = {
 					82536F3921A42AD500291E04 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -123,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				82536F4821A42AD800291E04 /* LaunchScreen.storyboard in Resources */,
+				82536F7721A4742400291E04 /* down.png in Resources */,
+				82536F7521A4700C00291E04 /* JSRefreshView.xib in Resources */,
 				82536F4521A42AD800291E04 /* Assets.xcassets in Resources */,
 				82536F4321A42AD500291E04 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82536F5F21A42F1600291E04 /* RSACryptor.m in Sources */,
+				82536F5D21A42F1600291E04 /* EncryptionTools.m in Sources */,
+				82536F7421A4700C00291E04 /* JSRefreshControl.swift in Sources */,
 				82536F4021A42AD500291E04 /* ViewController.swift in Sources */,
 				82536F3E21A42AD500291E04 /* AppDelegate.swift in Sources */,
+				82536F6521A448F000291E04 /* UIImage-Extension.swift in Sources */,
+				82536F5E21A42F1600291E04 /* NSString+Hash.m in Sources */,
+				82536F6321A445F200291E04 /* NSObject-Extension.swift in Sources */,
+				82536F6121A443E400291E04 /* UIColor-Extension.swift in Sources */,
+				82536F6721A4520F00291E04 /* UIView-Extension.swift in Sources */,
+				82536F5121A42C1300291E04 /* String-Extension.swift in Sources */,
+				82536F7321A4700C00291E04 /* JSRefreshView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,15 +363,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9FQ8LK3ZQ;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JS-Coder.Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tools/Extension/Tools-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +385,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9FQ8LK3ZQ;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JS-Coder.Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tools/Extension/Tools-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
