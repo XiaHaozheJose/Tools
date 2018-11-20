@@ -87,7 +87,7 @@ refresh.endRefreshing()
 ##### 7. More Extension
 
 ```
-There will be more, if you have time
+There will be more, if i have time
 ```
 
 
