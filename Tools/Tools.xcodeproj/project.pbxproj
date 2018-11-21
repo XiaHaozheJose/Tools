@@ -24,6 +24,10 @@
 		82536F7421A4700C00291E04 /* JSRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82536F7121A4700B00291E04 /* JSRefreshControl.swift */; };
 		82536F7521A4700C00291E04 /* JSRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82536F7221A4700B00291E04 /* JSRefreshView.xib */; };
 		82536F7721A4742400291E04 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 82536F7621A4742400291E04 /* down.png */; };
+		82C0CF5721A57E270072F8B9 /* JSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C0CF5221A57E270072F8B9 /* JSFileManager.swift */; };
+		82C0CF5821A57E270072F8B9 /* JSDownLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C0CF5321A57E270072F8B9 /* JSDownLoad.swift */; };
+		82C0CF5921A57E270072F8B9 /* JSDownLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C0CF5421A57E270072F8B9 /* JSDownLoadManager.swift */; };
+		82C0CF5A21A57E270072F8B9 /* StringWithMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C0CF5521A57E270072F8B9 /* StringWithMD5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,11 @@
 		82536F7121A4700B00291E04 /* JSRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSRefreshControl.swift; sourceTree = "<group>"; };
 		82536F7221A4700B00291E04 /* JSRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSRefreshView.xib; sourceTree = "<group>"; };
 		82536F7621A4742400291E04 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		82C0CF5221A57E270072F8B9 /* JSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSFileManager.swift; sourceTree = "<group>"; };
+		82C0CF5321A57E270072F8B9 /* JSDownLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSDownLoad.swift; sourceTree = "<group>"; };
+		82C0CF5421A57E270072F8B9 /* JSDownLoadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSDownLoadManager.swift; sourceTree = "<group>"; };
+		82C0CF5521A57E270072F8B9 /* StringWithMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringWithMD5.swift; sourceTree = "<group>"; };
+		82C0CF5621A57E270072F8B9 /* JSDownLoadLib-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSDownLoadLib-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +105,7 @@
 		82536F4F21A42BEF00291E04 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				82C0CF5121A57E270072F8B9 /* JSDownLoadLib */,
 				82536F6F21A4700B00291E04 /* JSRefresh */,
 				82536F5621A42F0100291E04 /* EnCryptionTools_OC */,
 				82536F5021A42C1300291E04 /* String-Extension.swift */,
@@ -130,6 +140,18 @@
 				82536F7221A4700B00291E04 /* JSRefreshView.xib */,
 			);
 			path = JSRefresh;
+			sourceTree = "<group>";
+		};
+		82C0CF5121A57E270072F8B9 /* JSDownLoadLib */ = {
+			isa = PBXGroup;
+			children = (
+				82C0CF5221A57E270072F8B9 /* JSFileManager.swift */,
+				82C0CF5321A57E270072F8B9 /* JSDownLoad.swift */,
+				82C0CF5421A57E270072F8B9 /* JSDownLoadManager.swift */,
+				82C0CF5521A57E270072F8B9 /* StringWithMD5.swift */,
+				82C0CF5621A57E270072F8B9 /* JSDownLoadLib-Bridging-Header.h */,
+			);
+			path = JSDownLoadLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,14 +230,18 @@
 			files = (
 				82536F5F21A42F1600291E04 /* RSACryptor.m in Sources */,
 				82536F5D21A42F1600291E04 /* EncryptionTools.m in Sources */,
+				82C0CF5721A57E270072F8B9 /* JSFileManager.swift in Sources */,
 				82536F7421A4700C00291E04 /* JSRefreshControl.swift in Sources */,
 				82536F4021A42AD500291E04 /* ViewController.swift in Sources */,
 				82536F3E21A42AD500291E04 /* AppDelegate.swift in Sources */,
+				82C0CF5821A57E270072F8B9 /* JSDownLoad.swift in Sources */,
+				82C0CF5A21A57E270072F8B9 /* StringWithMD5.swift in Sources */,
 				82536F6521A448F000291E04 /* UIImage-Extension.swift in Sources */,
 				82536F5E21A42F1600291E04 /* NSString+Hash.m in Sources */,
 				82536F6321A445F200291E04 /* NSObject-Extension.swift in Sources */,
 				82536F6121A443E400291E04 /* UIColor-Extension.swift in Sources */,
 				82536F6721A4520F00291E04 /* UIView-Extension.swift in Sources */,
+				82C0CF5921A57E270072F8B9 /* JSDownLoadManager.swift in Sources */,
 				82536F5121A42C1300291E04 /* String-Extension.swift in Sources */,
 				82536F7321A4700C00291E04 /* JSRefreshView.swift in Sources */,
 			);
