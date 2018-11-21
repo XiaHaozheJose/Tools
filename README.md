@@ -84,7 +84,30 @@ refresh.endRefreshing()
 
 ```
 
-##### 7. More Extension
+##### 7. Download Lib
+
+```
+"http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" for test
+JSDownLoadManager.shareInstance.downLoadWithInfo(urlName: url, statusType: { (status: JSDownLoadState) in
+      //
+    }, progresesType: { (progress) in
+      //
+    }, totalSize: { (fileSize) in
+      //
+    }) { (filePath) in
+      //
+    }
+    
+    // JSDownLoadManager.shareInstance.resumeWithURL(url: url)
+    // JSDownLoadManager.shareInstance.pauseWithURL(url: url!)
+    // JSDownLoadManager.shareInstance.cancelWithURL(url: url!)
+    // JSDownLoadManager.shareInstance.cancelAndCleanWithURl(url: url!)
+    // JSDownLoadManager.shareInstance.cancelAll()
+
+
+```
+
+##### 8. More Extension
 
 ```
 There will be more, if i have time
